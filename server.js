@@ -3,8 +3,8 @@ import cors from 'cors'
 import 'dotenv/config'
 
 import connectDB from './config/mongodb.js'
-import userRouter from './routes/userroutes.js'  // Fixed: capital 'R' in Routes
-import imageRouter from './routes/imageroutes.js'
+import userRouter from './routes/userroutes.js'
+import imageRouter from './routes/imageRoutes.js'
 
 const PORT = process.env.PORT || 4000
 const app = express()
